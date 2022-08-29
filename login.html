@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTP-8">
+        <meta content="width=device-width">
+<link rel="stylesheet" type="text/css" href="../CSS/andex.css">
+<link rel="stylesheet" href="../index.css">
+    </head>
+<body>
+    <main id="main-holder">
+    <h1>WELCOME</h1>
+      <form action="">
+        <div class="imgcontainer">
+            <img src="../IMAGES/food (1).jpg" alt="Avatar" class="avatar">
+          </div>
+          <div class="container">  
+        <label>Username</label>
+       <input type="text" placeholder="Username" id="text1" />
+       <br /><label>Password</label> <input type="password" placeholder="Password" id="text2" /><br />    
+        </div>
+           <div class="mt-3" align="center-right">   
+         <input type="button" class="loginbtn" value="Login"  onclick="javascript:validate()" />
+        </div>
+           <h6>
+            <div class="mt-3" align="left"> Dont have an Account?</div><a href="../HTML/register1.html"><button type="button" class="registerbtn"> Register Now</button>  </a> 
+            </h6></form>
+      <script type="text/javascript">
+        function validate()
+        {
+            if(   document.getElementById("text1").value == "10291988"
+               && document.getElementById("text2").value == "1234" )
+            {
+                alert( "validation succeeded" );
+                location.href="homepage.html";
+            }
+            else
+            {
+                alert( "validation failed" );
+                location.href="../HTML/login.html";
+            }
+        }
+        </script>
+        </main>      
+ </body>
+</html>

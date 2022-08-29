@@ -1,0 +1,63 @@
+h2{
+    text-align: center;
+    font-display: block;
+}
+.imgcontainer {
+    text-align: center;
+    margin: 8px 0 2px 0;
+  }
+  img.avatar {
+    width: 15%;
+    height: 15%;
+    border-radius: 30%;
+  }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+label{
+  text-align: left;
+  margin: 20px;
+}
+input{
+  position: 12px;;
+  display:block;
+  padding:0 18px 0 12px;
+   height: 32px; ;
+  transition:background 0.3s;
+  background-color: rgb(209, 206, 206);
+  
+}
+button {
+  background-color: #2c352cee;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: block;
+  cursor: pointer;
+  width: 50%;
+  height: 10%;
+  text-align: center;
+  border-bottom-width: 4%;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+
+body{
+  background-image: url("../IMAGES/loginbackground.webp");
+  background-position: center;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100vh;
+  font-family: 'Noto Sans', sans-serif;
+}

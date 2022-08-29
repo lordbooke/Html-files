@@ -1,0 +1,73 @@
+body{
+text-align: 52px;
+color: rgb(30, 19, 15);
+background-image: url("theme/2002373.jpg");
+}
+h1{
+  text-align: center;
+}
+form{
+    font-size:52px;
+text-align: center;
+font-family: Georgia;
+color: rgb(4, 4, 14);
+}
+label{
+    text-align: center;
+}
+input[type=text], input[type=password] {
+    
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+button {
+    background-color: #18b93eee;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+.container {
+    padding: 12px;
+  }
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+  img.avatar {
+    width: 20%;
+    border-radius: 30%;
+  }
+  .loginbtn {
+    background-color: #d2d815;
+    color: white;
+    padding: 25px 20px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+    border-radius: 25%;
+  
+ }
+ .registerbtn{
+
+  background-color: #18b93eee;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 35%
+ }
+
+  
